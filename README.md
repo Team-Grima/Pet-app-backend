@@ -7,8 +7,9 @@
 ### Git Setting
 > * Target Project 자신의 저장소로 Fork 하기
 > * fork로 생성한 본인 계정의 저장소에서 url을 클론 하기
-> ex) git clone 'url'
-> git remote add origin 'url'
+> * ex) git clone 'url'
+> * remote 설정
+> * git remote add origin 'url'
 > * 브랜치 생성하기
 > * git checkout -b develop
 > * 수정 작업 후 add, commit,push
