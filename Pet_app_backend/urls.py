@@ -25,5 +25,4 @@ urlpatterns = [
     path('common/',include('common.urls')),
     path('',views.index,name='index'),
 
-
 ]
