@@ -1,9 +1,11 @@
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
+from rest_framework.decorators import api_view
 
 # Create your views here.
 from common.forms import UserForm
 
+@api_view(['POST'])
 def signup(request):
     if request.method == "POST":
         form=UserForm(request.POST)

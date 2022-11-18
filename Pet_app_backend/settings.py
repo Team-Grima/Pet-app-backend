@@ -49,6 +49,11 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.kakao',
     'allauth.socialaccount.providers.google',
 
+    #djangorestframework
+    'rest_framework',
+    #drf-yasg
+    'drf_yasg',
+
     # apps
     'common',
     'pet_app',
