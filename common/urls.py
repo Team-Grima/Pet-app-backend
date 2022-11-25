@@ -12,9 +12,9 @@ urlpatterns = [
     #path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     #path('register/', RegisterAPIView.as_view()),
     #path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('1/', include('dj_rest_auth.urls')),
-    path('2/', include('dj_rest_auth.registration.urls')),
-    path('3/', include('allauth.urls')),
+    path('', include('dj_rest_auth.urls')),
+    path('register/', include('dj_rest_auth.registration.urls')),
+
 
 
 ]

@@ -22,11 +22,9 @@ from rest_framework.permissions import AllowAny
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="TO-DO API",  # 타이틀
+        title="Pet APP API",  # 타이틀
         default_version='v1',   # 버전
-        description="서버개발자가 되는법 #12",   # 설명
-        terms_of_service="https://cholol.tistory.com/551",
-        contact=openapi.Contact(email="mychew@kakao.com")
+        description="King of KU",   # 설명
 ),
     validators=['flex'],
     public=True,

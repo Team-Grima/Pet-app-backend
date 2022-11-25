@@ -14,7 +14,6 @@ defusedxml==0.7.1
 dj-rest-auth==2.2.5
 Django==4.1.3
 django-admin-charts==1.2.3
-django-allauth==0.51.0
 django-bower==5.2.0
 django-elasticsearch-dsl==7.2.2
 django-memoize==2.3.1
